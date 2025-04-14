@@ -25,7 +25,7 @@ let updateCart = (cardImg, cardName, cardPrice)=>{
                       <h5 class="card-title">${cardName}</h5>
                       <p class="item-price">Rs:<span>${cardPrice}</span></p>
                       <input type="number" class="sidebar-qtyitem" value="1">
-                      <i class='bx close_button bx-message-rounded-x' onclick="removeCart(event)"></i>
+                      <i class='bx close_button bx-message-rounded-x' onclick="removeCart(event)">X</i>
                     </div>`
 
     let div = document.createElement("div")
